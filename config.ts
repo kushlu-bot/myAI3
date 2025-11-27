@@ -11,7 +11,6 @@ export const MODEL = openai('gpt-4.1');
 //     middleware: extractReasoningMiddleware({ tagName: 'think' }), // Use this only when using Deepseek
 // });
 
-
 function getDateAndTime(): string {
     const now = new Date();
     const dateStr = now.toLocaleDateString('en-US', {
@@ -33,10 +32,11 @@ export const DATE_AND_TIME = getDateAndTime();
 export const AI_NAME = "Bot_Sky";
 export const OWNER_NAME = "Sathwik and Shubham";
 
-export const WELCOME_MESSAGE = `Hello! I'm ${AI_NAME}, an AI assistant created by ${OWNER_NAME}.`
+export const WELCOME_MESSAGE = `Hello! I'm ${AI_NAME}, an AI assistant created by ${OWNER_NAME}.`;
 
 export const CLEAR_CHAT_TEXT = "New";
 
+// Moderation messages
 export const MODERATION_DENIAL_MESSAGE_SEXUAL = "I can't discuss explicit sexual content. Please ask something else.";
 export const MODERATION_DENIAL_MESSAGE_SEXUAL_MINORS = "I can't discuss content involving minors in a sexual context. Please ask something else.";
 export const MODERATION_DENIAL_MESSAGE_HARASSMENT = "I can't engage with harassing content. Please be respectful.";
