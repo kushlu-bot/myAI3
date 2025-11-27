@@ -139,12 +139,15 @@ export default function Chat() {
           <ChatHeader>
             <ChatHeaderBlock />
             <ChatHeaderBlock className="justify-center items-center space-x-3">
+              
+              {/* UPDATED LOGO HERE */}
               <Avatar className="size-8 ring-2" style={{ borderColor: "#D4AF37" }}>
-                <AvatarImage src="/Our Logo.png" />
+                <AvatarImage src="https://files.catbox.moe/1lb3yd.png" />
                 <AvatarFallback className="bg-white">
-                  <Image src="/Our Logo.png" alt="Logo" width={36} height={36} />
+                  <Image src="https://files.catbox.moe/1lb3yd.png" alt="Logo" width={36} height={36} />
                 </AvatarFallback>
               </Avatar>
+
               <p className="font-semibold tracking-tight text-lg">{AI_NAME}</p>
             </ChatHeaderBlock>
 
