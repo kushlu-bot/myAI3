@@ -142,7 +142,7 @@ export default function Chat() {
               <Avatar className="size-8 ring-2" style={{ borderColor: "#D4AF37" }}>
                 <AvatarImage src="/logo.png" />
                 <AvatarFallback className="bg-white">
-                  <Image src="/logo.png" alt="Logo" width={36} height={36} />
+                  <Image src="/Our Logo.png" alt="Logo" width={36} height={36} />
                 </AvatarFallback>
               </Avatar>
               <p className="font-semibold tracking-tight text-lg">{AI_NAME}</p>
