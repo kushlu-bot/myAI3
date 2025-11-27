@@ -30,7 +30,7 @@ function getDateAndTime(): string {
 
 export const DATE_AND_TIME = getDateAndTime();
 
-export const AI_NAME = "UAV Regulations Policy Bot";
+export const AI_NAME = "Bot_Sky";
 export const OWNER_NAME = "Sathwik and Shubham";
 
 export const WELCOME_MESSAGE = `Hello! I'm ${AI_NAME}, an AI assistant created by ${OWNER_NAME}.`
