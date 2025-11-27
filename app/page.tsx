@@ -140,7 +140,7 @@ export default function Chat() {
             <ChatHeaderBlock />
             <ChatHeaderBlock className="justify-center items-center space-x-3">
               <Avatar className="size-8 ring-2" style={{ borderColor: "#D4AF37" }}>
-                <AvatarImage src="/logo.png" />
+                <AvatarImage src="/Our Logo.png" />
                 <AvatarFallback className="bg-white">
                   <Image src="/Our Logo.png" alt="Logo" width={36} height={36} />
                 </AvatarFallback>
